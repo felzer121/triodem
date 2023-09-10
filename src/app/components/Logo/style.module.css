@@ -1,0 +1,7 @@
+.logo {
+    z-index: 10;
+    position: relative;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 46px;
+}
