@@ -1,13 +1,21 @@
-import { createTheme } from '@mui/material/styles';
-import { green, purple } from '@mui/material/colors';
+import { ThemeOptions } from '@mui/material/styles';
+import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 
-export const theme =  ({
+export const themeOptions: ThemeOptions = createTheme({
+  typography: {
+    fontFamily: [
+      'inherit',
+      'Roboto',
+    ].join(','),
+  },
   palette: {
     primary: {
       main: '#FFD400',
     },
     secondary: {
-      main: green[500],
+      main: '#f50057',
     },
   },
 });
+
+export default themeOptions

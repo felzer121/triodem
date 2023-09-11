@@ -32,7 +32,9 @@ export const Header = () => {
                         Простой и доступный всем в использовании язык программирования. Ребенок сможет создать свои первые игры и анимации под руководством нашего опытного тренера
                         </p>
                         <p className={styles.header__contentSubDesription}>для детей и подростков от 6 до 14 лет</p>
-                        <Button variant="contained">Пробный урок</Button>
+                        <div>
+                            <Button size="large" sx={{fontSize: 20, padding: '15px 50px'}} variant="contained" color="primary">Пробный урок</Button>
+                        </div>
                     </div>
                     <PictureVector />
                 </div>
