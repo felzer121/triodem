@@ -1,0 +1,53 @@
+.lesson {
+    gap: 100px;
+    height: 1000px;
+    display: flex;
+    padding: 70px 0 150px 0;
+}
+.lesson__info {
+    max-width: 580px;
+    width: 100%;
+}
+.lesson__title {
+    padding-bottom: .8em;
+    color: #333;
+    font-size: 2.425em;
+    font-weight: 200;
+}
+.lesson__list {
+    padding-left: 24px;
+}
+.lesson__list li{
+    padding-bottom: 1.4em;
+}
+.lesson__picture {
+    max-height: 485px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.lesson__pictureImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.lesson__pictureWrapper{
+    padding: 40px 40px 45px 40px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.lesson__pictureImgContainer {
+    border-radius: 12px;
+}
+.lesson__pictureSubFon {
+    top: 120px;
+    left: -100px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
