@@ -1,0 +1,50 @@
+.footer {
+  background-color: #2b3245;
+  width: 100%;
+  padding: 48px 0 30px 0;
+  color: #fff;
+}
+.footer__about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer__aboutPhone {
+  font-size: 1.475em;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.footer__subtitle {
+  color: #bbbbbb;
+  font-size: 1em;
+}
+.footer__highContert {
+  display: flex;
+  padding-bottom: 40px;
+  gap: 80px;
+}
+.footer__contactItem {
+  width: 35%;
+}
+.footer__aboutSocial {
+  display: flex;
+  gap: 10px;
+}
+.footer__contactAdress {
+  font-size: 2em;
+  font-weight: 500;
+}
+.footer__contactBlock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer__aboutPhone {
+  white-space: nowrap;
+}
+.footer__downContert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
