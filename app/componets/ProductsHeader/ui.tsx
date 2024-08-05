@@ -4,12 +4,12 @@ import { IconArrowBigDownFilled } from "@tabler/icons-react";
 
 export const ProductsHeader = () => {
   return (
-    <div className="flex justify-center h-screen w-full dark:bg-black bg-white dark:bg-grid-small-white/[0.3] bg-grid-small-black/[0.3] relative">
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+    <div className="flex justify-center h-screen w-full bg-black bg-grid-small-white/[0.3] relative">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className="container pb-10 pt-16 relative">
         <div className="flex justify-between items-end">
           <div className="flex flex-col gap-24">
-            <h1 className="text-6xl font-extrabold max-w-screen-sm">
+            <h1 className="text-6xl font-extrabold max-w-screen-sm text-[#fff]">
               Познакомьтесь с реализованными веб-проектами
             </h1>
             <div className="grid grid-cols-[48px_1fr] gap-12 justify-between">

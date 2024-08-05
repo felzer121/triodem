@@ -16,7 +16,7 @@ export const WorkProcess = () => {
             <div className="flex h-[250px] justify-center rounded-lg w-full bg-white/[0.05] py-8">
               <ProectionPO />
             </div>
-            <h4 className="text-[26px] font-bold leading-8">
+            <h4 className="text-[26px] font-bold leading-8 text-white">
               Проектирование, разработка и внедрение ПО
             </h4>
             <p className="text-sm font-normal text-zinc-500">
@@ -115,7 +115,7 @@ export const WorkProcess = () => {
             <div className="flex justify-center h-[250px] rounded-lg w-full bg-white/[0.05] py-8">
               <IntegrationPO />
             </div>
-            <h4 className="text-[26px] font-bold leading-8">
+            <h4 className="text-[26px] font-bold leading-8 text-white">
               Интеграция решений в разработанное ПО
             </h4>
             <p className="text-sm font-normal text-zinc-500">

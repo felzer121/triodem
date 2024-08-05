@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container pb-6 pt-6 flex gap-6 items-center">
                 <Link href='/' className="flex items-center gap-6 text-5xl">
                     <Logo size='small' />
-                    <span className={introCond.className}>triodem</span>
+                    <span className={`${introCond.className} text-white`}>triodem</span>
                 </Link>
                 <Menu />
             </div>

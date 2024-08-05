@@ -12,7 +12,7 @@ export const Calculate = () => {
         <div className="mt-16 py-6 bg-gradient-to-r from-[transparent] to-[#161616] rounded-lg">
           <div className="grid grid-cols-[1fr_1fr]">
             <div className="flex flex-col gap-6">
-              <h2 className="text-6xl font-black">
+              <h2 className="text-6xl font-black text-white">
                 Калькулятор
                 <br />
                 стоимости

@@ -8,7 +8,7 @@ export const ServicesHeader = () => {
       <div className="container pb-10 pt-16 relative">
         <div className="flex h-5/6 items-center">
           <div className="flex flex-col gap-24 w-full">
-            <h1 className="text-6xl font-extrabold max-w-screen-sm">
+            <h1 className="text-6xl font-extrabold max-w-screen-sm text-white">
               Разрабатываем виртуальные решения
             </h1>
             <div className="grid grid-cols-[48px_1fr] gap-12 justify-between">

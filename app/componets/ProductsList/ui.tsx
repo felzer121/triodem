@@ -154,14 +154,14 @@ export default function Products() {
   return (
     <div className="flex flex-col justify-center mb-40">
       <div className="container h-[40rem] md:h-[50rem] [perspective:1000px] relative b flex flex-col mx-auto w-full  items-start justify-start my-30 mb-40">
-        <h3 className="text-5xl font-extrabold pb-6 py-10" id="products">
+        <h3 className="text-5xl font-extrabold pb-6 py-10 text-[#fff]" id="products">
           Интернет магазин
           <br /> косметики Bessarab
         </h3>
         <Tabs tabs={tabs} />
       </div>
       <div className="container h-[40rem] md:h-[50rem] [perspective:1000px] relative b flex flex-col mx-auto w-full  items-start justify-start my-30">
-        <h3 className="text-5xl font-extrabold pb-6 py-10" id="products">
+        <h3 className="text-5xl font-extrabold pb-6 py-10 text-[#fff]" id="products">
           Mob app Штраф.онлайн
         </h3>
         <Tabs tabs={tabs1} />

@@ -21,7 +21,7 @@ export const AboutDevelopment = () => {
             [ разработка и сопровождение вашего веб проекта ]
           </h5>
           <h2 className="text-4xl">
-            <span className={introCond.className}>
+            <span className={`${introCond.className} text-white`}>
               Этапы разработки приложения
             </span>
           </h2>

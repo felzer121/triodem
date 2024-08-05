@@ -4,7 +4,6 @@ import {
   IconSignLeft,
   IconArrowBigDownLines,
 } from "@tabler/icons-react";
-import { IconShoppingBag } from "@tabler/icons-react";
 
 interface LineCalculateProps {
   step: number;
@@ -39,7 +38,7 @@ export const LineCalculate = ({ step }: LineCalculateProps) => {
             style={
               index + 1 <= step
                 ? { backgroundColor: "#EBEBEB", color: "#000" }
-                : {}
+                : { color: '#868686'}
             }
           >
             {item.icon}

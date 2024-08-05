@@ -67,11 +67,11 @@ export const CalculateBody = ({ step, setStep }: CalculateBodyProps) => {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-6">
               <div className="bg-[#212D27] rounded-md p-2 w-fit text-[#48BF85]">{question.icon}</div>
-              <h4 className="text-2xl">{question.title}</h4>
+              <h4 className="text-2xl text-white">{question.title}</h4>
             </div>
             <div className="flex items-center gap-6"> 
-              <span className="text-lg text-[#888] font-normal">{question.price}</span>
-              <IconArrowNarrowRight />
+              <span className="text-lg text-[#888] font-norma">{question.price}</span>
+              <IconArrowNarrowRight className="text-white" />
             </div>
           </div>
           <p className="text-base text-[#888]">{question.description}</p>
