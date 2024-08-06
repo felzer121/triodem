@@ -1,6 +1,6 @@
-export const NopCoomerceIcon = () => {
+export const NopCoomerceIcon = ({styles}: {styles?: string}) => {
     return (
-        <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="22" height="17" className={styles} viewBox="0 0 22 17" fill="none">
             <g clipPath="url(#clip0_153_37)">
             <path d="M19.117 16.013C17.7249 16.0072 16.6168 14.9291 16.6165 13.5796C16.6161 12.1018 17.9148 10.8391 19.4393 10.8336C20.7845 10.8291 22.0052 11.9966 22.0071 13.2895C22.0097 14.7593 20.6722 16.0197 19.117 16.013Z" fill="#40BDD7"/>
             <path d="M9.93365 13.9526C9.95339 12.4964 11.1948 11.2298 12.6028 11.2295C13.5358 11.2295 14.3369 11.8536 14.5566 12.7523C14.9406 14.3224 13.617 16.0272 11.9881 16.06C10.8321 16.0834 9.91748 15.1455 9.93365 13.9526Z" fill="#40BDD7"/>

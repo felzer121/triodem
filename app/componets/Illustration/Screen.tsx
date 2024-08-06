@@ -1,6 +1,6 @@
-export const Screen = () => {
+export const Screen = ({styles}: {styles?: string}) => {
     return (
-        <svg width="715" height="515" viewBox="0 0 715 515" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg style={{width: '100%', height: 'auto'}} className={styles} viewBox="0 0 715 515" fill="none">
             <g filter="url(#filter0_d_4_7)">
             <rect x="12" y="12" width="683" height="483" rx="12" fill="#2A2A2A"/>
             </g>

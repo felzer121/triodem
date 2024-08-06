@@ -17,10 +17,10 @@ export const AboutDevelopment = () => {
     >
       <div className="container">
         <div className="flex gap-1 flex-col items-center mt-4 mb-6">
-          <h5 className="text-zinc-500">
+          <h5 className="text-zinc-500 text-sm sm:text-base text-center">
             [ разработка и сопровождение вашего веб проекта ]
           </h5>
-          <h2 className="text-4xl">
+          <h2 className="text-3xl sm:text-4xl text-center">
             <span className={`${introCond.className} text-white`}>
               Этапы разработки приложения
             </span>
