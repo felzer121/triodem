@@ -8,6 +8,16 @@ import { TsIcon } from "../svg/TsIcon";
 import { ViteIcon } from "../svg/ViteIcon";
 import { ZustandIcon } from "../svg/ZustandIcon";
 import { CanvasEffect } from "../CanvasEffect/ui";
+import { Rocket } from "../svg/Rocket";
+import { Postgre } from "../svg/Postgre";
+import { Spiro } from "../svg/Spiro";
+import { Kendo } from "../svg/Kendo";
+import { ReactNative } from "../svg/ReactNative";
+import { NodeIcon } from "../svg/NodeIcon";
+import { Esbuild } from "../svg/Esbuild";
+import { Jest } from "../svg/Jest";
+import { TailwindIcon } from "../svg/TailwindIcon";
+import { ReactIcon } from "../svg/ReactIcon";
 
 const technologiesList = [
   {
@@ -63,8 +73,21 @@ export const Technologies = () => {
             <div className="relative min-h-[500px]">
               <div className="border rounded-lg border-white/[0.15] max-w-[340px] w-[340px] p-[28px] rotate-[-3deg] absolute z-[1] bg-[#000]">
                 <div className="grid grid-cols-[2fr_1fr] gap-6">
-                  <div className="flex justify-start items-center">
-                    <NextIcon />
+                  <div className="ml-8">
+                    <div className="grid grid-cols-[42px_42px] gap-2 relative">
+                      <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
+                        <ReactIcon />
+                      </div>
+                      <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
+                        <Esbuild />
+                      </div>
+                      <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
+                        <TailwindIcon />
+                      </div>
+                      <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
+                        <Jest />
+                      </div>
+                    </div>
                   </div>
                   <div className="grid grid-cols-2 gap-2 relative">
                     <svg
@@ -100,7 +123,7 @@ export const Technologies = () => {
                     </svg>
 
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <ZustandIcon />
+                      <TsIcon />
                     </div>
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
                       <ViteIcon />
@@ -112,7 +135,7 @@ export const Technologies = () => {
                       <TsIcon />
                     </div>
                   </div>
-                  <div className="grid grid-cols-3 gap-2 relative mt-2">
+                  <div className="grid relative mt-2">
                     <svg
                       width="335"
                       height="2"
@@ -141,14 +164,8 @@ export const Technologies = () => {
                       </defs>
                     </svg>
 
-                    <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <GrandNodeIcon />
-                    </div>
-                    <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <AspIcon />
-                    </div>
-                    <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <NopCoomerceIcon />
+                    <div className="flex justify-center items-center w-full">
+                      <NodeIcon />
                     </div>
                   </div>
                   <div className="flex justify-center items-center mt-2">
@@ -157,7 +174,7 @@ export const Technologies = () => {
                 </div>
 
                 <h5 className="text-xl mt-10 mb-1 font-semiBold">
-                  E-commerce App
+                  Web App
                 </h5>
                 <p className="text-zinc-500">
                   E-commerce приложение на Next.js с панелью управления и API.
@@ -165,8 +182,8 @@ export const Technologies = () => {
               </div>
               <div className="border rounded-lg border-white/[0.15] max-w-[340px] w-[340px] p-[28px] rotate-[-1.5deg] left-[180px] top-[36px] absolute z-[2] bg-[#000]">
                 <div className="grid grid-cols-[2fr_1fr] gap-6">
-                  <div className="flex justify-start items-center">
-                    <NextIcon />
+                  <div className="flex justify-center items-center">
+                    <ReactNative />
                   </div>
                   <div className="grid grid-cols-2 gap-2 relative">
                     <svg
@@ -202,16 +219,16 @@ export const Technologies = () => {
                     </svg>
 
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <ZustandIcon />
+                      <Spiro />
                     </div>
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <ViteIcon />
+                      <Kendo />
                     </div>
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
                       <MuiIcon />
                     </div>
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <TsIcon />
+                      <ViteIcon />
                     </div>
                   </div>
                   <div className="grid grid-cols-3 gap-2 relative mt-2">
@@ -244,22 +261,22 @@ export const Technologies = () => {
                     </svg>
 
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <GrandNodeIcon />
+                      <Rocket />
                     </div>
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <AspIcon />
+                      <Postgre />
                     </div>
                     <div className="flex justify-center items-center bg-white/[0.1] rounded-full max-w-[42px] h-[42px]">
-                      <NopCoomerceIcon />
+                      <TsIcon />
                     </div>
                   </div>
                   <div className="flex justify-center items-center mt-2">
-                    <span className="text-3xl">.NET</span>
+                    <span className="text-3xl">Laravel</span>
                   </div>
                 </div>
 
                 <h5 className="text-xl mt-10 mb-1 font-semiBold">
-                  E-commerce App
+                  Mobile App
                 </h5>
                 <p className="text-zinc-500">
                   E-commerce приложение на Next.js с панелью управления и API.
