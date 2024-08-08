@@ -10,7 +10,7 @@ const HeaderMain = () => {
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className="w-full sm:min-h-screen lg:h-screen flex flex-col relative z-20">
         <Header />
-        <div className="flex justify-center h-full items-center sm:py-14 pt-16 pb-24">
+        <div className="flex justify-center h-full items-center sm:py-14 pt-12 pb-24">
           <div className="container">
             <div className="flex items-center flex-col lg:flex-row lg:gap-2 gap-12">
               <div className="flex justify-center w-full order-2 lg:order-1">
