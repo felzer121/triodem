@@ -10,7 +10,7 @@ import { Calculate } from "../componets/Calculate/ui";
 export default function Services() {
   return (
     <div className={GeistSans.className}>
-      <header className="min-h-screen">
+      <header className="sm:min-h-screen lg:h-screen">
         <Header />
         <Calculate />
       </header>

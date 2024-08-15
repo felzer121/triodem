@@ -7,7 +7,7 @@ import { Footer } from "../componets/Footer/ui";
 export default function Products() {
   return (
     <main className={GeistSans.className}>
-      <header className="h-screen">
+      <header className="sm:min-h-screen lg:h-screen">
         <Header />
         <ProductsHeader />
       </header>

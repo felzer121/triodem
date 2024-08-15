@@ -8,7 +8,7 @@ import { ProjectsPreview } from "../componets/ProjectsPreview/ui";
 export default function Products() {
   return (
     <div className={GeistSans.className}>
-      <header className="h-screen">
+      <header className="sm:min-h-screen lg:h-screen">
         <Header />
         <ServicesHeader />
       </header>

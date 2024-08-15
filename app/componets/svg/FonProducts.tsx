@@ -1,6 +1,6 @@
 export const FonProducts = () => {
     return (
-        <svg width="635" height="575" viewBox="0 0 635 575" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="635" height="100%" viewBox="0 0 635 575" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_384_1184)">
             <path d="M204.266 29.4436V251.567L635 466.203V243.913L204.266 29.4436Z" fill="url(#paint0_radial_384_1184)"/>
             <path d="M204.266 29.4436V251.567L635 466.203V243.913L204.266 29.4436Z" fill="url(#paint1_radial_384_1184)"/>
