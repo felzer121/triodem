@@ -4,7 +4,7 @@ import { IconArrowBigDownFilled } from "@tabler/icons-react";
 
 export const ProductsHeader = () => {
   return (
-    <div className="flex justify-center h-screen w-full bg-black bg-grid-small-white/[0.3] relative">
+    <div className="flex justify-center items-center h-screen w-full bg-black bg-grid-small-white/[0.3] relative">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className="container pb-10 pt-12 relative px-3">
         <div className="flex flex-col items-center gap-12 lg:flex-row">
@@ -26,7 +26,7 @@ export const ProductsHeader = () => {
               </p>
             </div>
           </div>
-          <div className="w-full flex justify-center items-center order-1 lg:order-2 lg:justify-start h-[300px] max-[450px]:h-[260px] sm:h-[340px]">
+          <div className="w-full flex justify-center items-center order-1 lg:order-2 lg:justify-start h-[300px] max-[450px]:h-[260px] lg:h-[auto] sm:h-[340px]">
             <FonProducts />
           </div>
         </div>
