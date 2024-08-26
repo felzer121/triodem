@@ -2,7 +2,7 @@ import React from "react";
 import { Request } from "./models/request";
 import toast from "react-hot-toast";
 
-const useHttp = () => {
+const sendHttp = () => {
   const request = async <Data>({ url, method, data }: Request<Data>) => {
     try {
       const options: any = {
@@ -32,4 +32,4 @@ const useHttp = () => {
   return { request };
 };
 
-export { useHttp };
+export { sendHttp };

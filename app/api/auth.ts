@@ -1,7 +1,7 @@
 import { NextRequest } from "next/server";
-import { useHttp } from "./useHttp";
+import { sendHttp } from "./sendHttp";
 
-const { request } = useHttp();
+const { request } = sendHttp();
 const _apiBaseDev = process.env.NEXT_PUBLIC_BACKEND_HOST
   ? process.env.NEXT_PUBLIC_BACKEND_HOST
   : "";
