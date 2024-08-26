@@ -13,7 +13,7 @@ export const NavBar = () => {
   return (
     <>
       <div
-        className="p-2 hover:bg-white/[0.15] transition duration-200 rounded-md cursor-pointer flex sm:hidden"
+        className="p-2 hover:bg-white/[0.15] transition duration-200 rounded-md cursor-pointer flex lg:hidden"
         onClick={handleClick}
       >
         {!isOpen ? <IconMenu stroke={2} /> : <IconX />}

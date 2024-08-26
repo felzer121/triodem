@@ -6,17 +6,17 @@ import { ProectionPO } from "../svg/ProectionPO";
 
 export const WorkProcess = () => {
   return (
-    <section className="flex justify-center mt-24 mb-12">
+    <section className="flex justify-center mt-24 mb-12 px-3">
       <div className="container">
-        <div className="grid grid-cols-3 gap-4 ">
-          <div className="overflow-hidden self-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 ">
+          <div className="overflow-hidden self-center hidden xl:block">
             <OrderFon />
           </div>
-          <div className="flex flex-col gap-4 border rounded-lg border-white/[0.15] py-8 px-10">
+          <div className="flex flex-col gap-4 border rounded-lg border-white/[0.15] py-8 px-10 max-[440px]:px-4 max-[440px]:py-4">
             <div className="flex h-[250px] justify-center rounded-lg w-full bg-white/[0.05] py-8">
               <ProectionPO />
             </div>
-            <h4 className="text-[26px] font-bold leading-8 text-white">
+            <h4 className="text-[20px] md:text-[26px] font-bold leading-8 text-white">
               Проектирование, разработка и внедрение ПО
             </h4>
             <p className="text-sm font-normal text-zinc-500">
@@ -24,7 +24,7 @@ export const WorkProcess = () => {
               обеспечения, включающий:
             </p>
             <ul className="text-zinc-500 flex flex-wrap gap-3">
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2 relative">
+              <li className=" rounded bg-white/[0.15] w-fit flex gap-2 relative">
                 <Tooltip
                   items={[
                     {
@@ -36,9 +36,8 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className=" rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
@@ -50,10 +49,8 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className=" rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
@@ -65,9 +62,8 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className=" rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
@@ -79,9 +75,8 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className=" rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
@@ -93,9 +88,8 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className=" rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
@@ -107,15 +101,14 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
             </ul>
           </div>
-          <div className="flex flex-col gap-4 border rounded-lg border-white/[0.15] py-8 px-10">
+          <div className="flex flex-col gap-4 border rounded-lg border-white/[0.15] py-8 px-10 max-[440px]:px-4 max-[440px]:py-4">
             <div className="flex justify-center h-[250px] rounded-lg w-full bg-white/[0.05] py-8">
               <IntegrationPO />
             </div>
-            <h4 className="text-[26px] font-bold leading-8 text-white">
+            <h4 className="text-[20px] md:text-[26px] font-bold leading-8 text-white">
               Интеграция решений в разработанное ПО
             </h4>
             <p className="text-sm font-normal text-zinc-500">
@@ -123,7 +116,7 @@ export const WorkProcess = () => {
               программное обеспечения:
             </p>
             <ul className="text-zinc-500 flex flex-col gap-3">
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2 relative">
+              <li className=" rounded bg-white/[0.15] w-fit flex gap-2 relative">
                 <Tooltip
                   items={[
                     {
@@ -135,13 +128,12 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className=" rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
-                      id: 1,
+                      id: 2,
                       top: "-top-32",
                       name: "Выбор подходящих решений",
                       designation:
@@ -149,14 +141,12 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className="rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
-                      id: 1,
+                      id: 3,
                       top: "-top-32",
                       name: "Разработка интеграционных решений",
                       designation:
@@ -164,13 +154,12 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className="rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
-                      id: 1,
+                      id: 4,
                       top: "-top-32",
                       name: "Тестирование интеграции",
                       designation:
@@ -178,13 +167,12 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
-              <li className="px-4 py-2 rounded bg-white/[0.15] w-fit flex gap-2">
+              <li className="rounded bg-white/[0.15] w-fit flex gap-2">
                 <Tooltip
                   items={[
                     {
-                      id: 1,
+                      id: 5,
                       top: "-top-32",
                       name: "Внедрение и обучение",
                       designation:
@@ -192,7 +180,6 @@ export const WorkProcess = () => {
                     },
                   ]}
                 />
-                <IconInfoSquareRoundedFilled />
               </li>
             </ul>
           </div>

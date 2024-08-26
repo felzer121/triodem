@@ -1,8 +1,8 @@
 import { GeistSans } from "geist/font/sans";
-import { Header } from "../componets/Header/ui";
-import { ProductsHeader } from "../componets/ProductsHeader/ui";
-import ProductsList from "../componets/ProductsList/ui";
-import { Footer } from "../componets/Footer/ui";
+import { Header } from "../../componets/Header/ui";
+import { ProductsHeader } from "../../componets/ProductsHeader/ui";
+import ProductsList from "../../componets/ProductsList/ui";
+import { Footer } from "../../componets/Footer/ui";
 
 export default function Products() {
   return (

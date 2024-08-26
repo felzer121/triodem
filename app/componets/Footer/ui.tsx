@@ -1,7 +1,7 @@
 import { introCond } from "@/app/page"
 import Link from "next/link"
 import { Logo } from "../Logo/ui"
-import { Input } from "../ui/input"
+import { Input, LabelInputContainer } from "../ui/input"
 import { IconBrandTelegram } from '@tabler/icons-react';
 import { IconBrandWhatsapp } from '@tabler/icons-react';
 import { cn } from "@/app/lib/utils"
@@ -48,16 +48,3 @@ export const Footer = () => {
 }
 
 
-const LabelInputContainer = ({
-    children,
-    className,
-  }: {
-    children: React.ReactNode;
-    className?: string;
-  }) => {
-    return (
-      <div className={cn("flex flex-col space-y-2 w-full", className)}>
-        {children}
-      </div>
-    );
-  };

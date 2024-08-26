@@ -34,22 +34,22 @@ export const LineCalculate = ({ step }: LineCalculateProps) => {
       {steps.map((item, index) => (
         <div className="relative" key={item.id}>
           <div
-            className="relative p-6 bg-[#2F2F2F] rounded-full z-[4] shadow-[0px_4px_4px_rgba(0,0,0,0.35)]"
+            className="relative max-[420px]:p-3 p-6 bg-[#2F2F2F] rounded-full z-[4] shadow-[0px_4px_4px_rgba(0,0,0,0.35)]"
             style={
               index + 1 <= step
                 ? { backgroundColor: "#EBEBEB", color: "#000" }
-                : { color: '#868686'}
+                : { color: "#868686" }
             }
           >
             {item.icon}
           </div>
           {index < steps.length - 1 && (
             <div
-              className="absolute top-1/2 transform -translate-y-1/2 right-[-2px] left-[90%] h-[12px] z-[1]"
+              className="absolute top-1/2 transform -translate-y-1/2 right-[-2px] left-[90%] h-[12px] z-[1] max-[530px]:w-[calc(600px/7)] w-[calc(600px/4)]"
               style={
                 index + 1 < step
-                  ? { backgroundColor: "#EBEBEB", width: "calc(600px / 4)" }
-                  : { backgroundColor: "#6C6C6C", width: "calc(600px / 4)" }
+                  ? { backgroundColor: "#EBEBEB" }
+                  : { backgroundColor: "#6C6C6C" }
               }
             ></div>
           )}

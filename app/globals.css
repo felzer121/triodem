@@ -38,6 +38,39 @@ a {
   text-decoration: none;
 }
 
+#gridList {
+  --gap: 1em;
+  --line-offset: calc(var(--gap) / 2);
+  --line-thickness: 1px;
+  --line-color: rgb(55 63 70);
+  overflow: hidden;
+}
+
+#gridList > div {
+  position: relative;
+}
+
+#gridList > div::before, 
+#gridList > div::after {
+  content: '';
+  position: absolute;
+  background-color: var(--line-color);
+  z-index: 1;
+}
+
+#gridList > div::after {
+ inline-size: 100vw;
+ block-size: var(--line-thickness);
+ inset-inline-start: 0;
+ inset-block-start: calc(var(--line-offset) * -1);
+}
+
+#gridList > div::before {
+ inline-size: var(--line-thickness);
+ block-size: 100vh;
+ inset-inline-start: calc(var(--line-offset) * -1);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

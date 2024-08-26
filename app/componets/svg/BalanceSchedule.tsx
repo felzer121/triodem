@@ -1,8 +1,8 @@
 export const BalanceSchedule = () => {
   return (
     <svg
-      width="797"
-      height="591"
+      width="100%"
+      height="100%"
       viewBox="0 0 797 591"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
